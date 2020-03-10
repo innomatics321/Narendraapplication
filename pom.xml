@@ -30,13 +30,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>DESKTOP-29T2KOJ-releases</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>DESKTOP-OTRBH98-releases</name>
+        <url>http://localhost:8081/artifactory/innobank</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>DESKTOP-29T2KOJ-snapshots</name>
-        <url>http://localhost:8081/artifactory/testdevops</url>
+        <name>DESKTOP-OTRBH98-snapshots</name>
+        <url>http://localhost:8081/artifactory/innobank</url>
     </snapshotRepository>
 </distributionManagement>
 
