@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('clone') {
+    stage('code-pull') {
       steps {
-        bat 'REM test'
+        git(url: 'https://github.com/innomatics321/Narendraapplication.git', branch: 'master', credentialsId: 'narendrasingamaneni91')
       }
     }
 
