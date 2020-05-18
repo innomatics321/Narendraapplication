@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('install') {
+          steps {
+            bat 'mvn clean install'
+          }
+        }
+
       }
     }
 
