@@ -38,7 +38,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        bat 'xcopy"C:\\Program Files (x86)\\Jenkins\\workspace\\intex_master\\target\\intex.war" "c:\\program files\\apache software foundation\\tomcat8.5\\webapps"/y'
+        bat 'xcpoy "C:\\Program Files (x86)\\Jenkins\\workspace\\intex_master\\target" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"/y'
       }
     }
 
