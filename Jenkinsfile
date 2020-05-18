@@ -36,5 +36,11 @@ pipeline {
       }
     }
 
+    stage('deploy') {
+      steps {
+        bat 'tomcat 8.5'
+      }
+    }
+
   }
 }
