@@ -13,12 +13,6 @@ pipeline {
       }
     }
 
-    stage('build') {
-      steps {
-        bat 'mvn package'
-      }
-    }
-
     stage('deploy') {
       steps {
         bat 'xcopy "C:\\Program Files (x86)\\Jenkins\\workspace\\intex_master\\target" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"/y'
